@@ -1,0 +1,10 @@
+#root {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-direction: column;
+}

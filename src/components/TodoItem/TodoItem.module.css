@@ -1,0 +1,31 @@
+.item {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #ffffffc9;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding-left: 2%;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+.del_button {
+    color: #852949;
+    background-color: #d983a1;
+}
+
+.del_button:hover {
+    border-color: #852949;
+}
+
+.task_name {
+    width: 100%;
+    overflow-y:scroll;
+    margin-left: 10px;
+    text-align: left;
+    padding: 5px;
+}

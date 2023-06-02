@@ -1,0 +1,31 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.input_bar {
+    width: 80%;
+    border-radius: 8px;
+    padding-left: 2%;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+
+.add_button {
+    color: #096837;
+    background-color: #83d9c1;
+}
+
+.add_button:hover {
+    border-color: #096837;
+}
+
+@media (min-width: 700px)  {
+    .input_bar {
+        width: 50%;
+    }
+}
